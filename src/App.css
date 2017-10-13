@@ -1,0 +1,57 @@
+
+.post-body {
+    white-space: nowrap;
+    color: #3366BB;
+    text-decoration: none;
+    overflow: hidden !important;
+    text-overflow: clip !important;
+}
+
+.btn-custom {
+    background-color: transparent;
+    text-decoration: none;
+    color: #3366BB;
+    transition: .2s ease;
+}
+
+.btn-custom:hover {
+    background-color: #73B1E1 !important;
+    border-color: #3366BB;
+    color: white !important;
+    transition: .5s ease;
+}
+
+.navbar {
+    background-color: #8B0000 !important;
+    border-color: white !important;
+}
+.btn-nav {
+    border-radius: 20px !important;
+    border-color: white !important;
+}
+.btn-nav > a, .navbar-header a:first-child {
+    border-radius: 20px !important;
+    border-color: white !important;
+    margin-top: 15px;
+    font-weight: bold !important;
+    background-color: transparent !important;
+    text-align: center;
+    color: white !important;
+    text-decoration: none;
+    transition: .2s ease;
+}
+.btn-nav:hover {
+    border-color: white !important;
+}
+.btn-nav > a:hover, .navbar-header a:first-child:hover {
+    margin-top: 10px;
+    font-weight: bolder;
+    background-color: #FF6347 !important;
+    border-color: white !important;
+    color: white !important;
+    transition: .2s ease;
+}
+
+.table td:hover {
+    cursor: pointer;
+}
